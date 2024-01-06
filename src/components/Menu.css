@@ -1,0 +1,41 @@
+div.menu--container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+button.menu--button {
+  font-size: 1em;
+  padding: .5em 1.8em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #464F56;
+  color: #fff;
+}
+
+button.menu--button:hover {
+  background-color: #373f45;
+  color: #d6d6d6;
+}
+
+div.menu--dropdown {
+  /* border: 1px red dotted; */
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+
+div.menu--item {
+  padding: .5em 1.8em;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #464F56;
+  border-bottom: 1px solid #242424;
+  cursor: pointer;
+}
+
+div.menu--item:hover {
+  background-color: #373f45;
+  color: #d6d6d6;
+}
