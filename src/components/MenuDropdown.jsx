@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { MenuContext } from "../App"
+import { MenuContext } from "./Menu"
 
 export default function MenuDropdown({children}) {
   const {open} = useContext(MenuContext)
