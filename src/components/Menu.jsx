@@ -1,10 +1,10 @@
 import "./Menu.css"
 
-export default function Menu() {
+export default function Menu({children}) {
 
   return (
     <div className="menu--container">
-      <button className="menu--button">Sports</button>
+      {children}
       <div className="menu--dropdown">
         <div className="menu--item">Footbal</div>
         <div className="menu--item">Ping Pong</div>
