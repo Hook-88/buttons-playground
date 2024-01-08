@@ -2,9 +2,11 @@ import { useState, createContext } from "react"
 
 import "./App.css"
 import Menu from "./components/Menu"
-import MenuButton from "./components/MenuButton"
+import MenuDropdownButton from "./components/MenuDropdownButton"
 import MenuDropdown from "./components/MenuDropdown"
 import MenuItem from "./components/MenuItem"
+import { MdOutlineArrowDropDownCircle } from "react-icons/md";
+import MenuButton from "./components/MenuButton"
 
 
 export default function App() {
@@ -14,6 +16,9 @@ export default function App() {
     <div>
       <Menu>
         <MenuButton>Sports</MenuButton>
+        <MenuDropdownButton>
+          <MdOutlineArrowDropDownCircle className="icon--dropdown"/>
+        </MenuDropdownButton>
         <MenuDropdown>
           {sports.sort().map(sport => (
               <MenuItem key={sport}>{sport}</MenuItem>
