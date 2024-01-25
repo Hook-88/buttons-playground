@@ -12,8 +12,7 @@ function App() {
         <Menu.Item>Bolirana</Menu.Item>
         <Menu.Item>Ping Pong</Menu.Item>
       </Menu.Dropdown>
-    </Menu>
-      
+    </Menu> 
     </>
   )
 }
