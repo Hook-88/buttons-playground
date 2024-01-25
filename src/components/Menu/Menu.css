@@ -1,0 +1,10 @@
+.menu--container {
+  border: 1px dotted red;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu--container button {
+  font-size: inherit;
+  cursor: pointer;
+}
