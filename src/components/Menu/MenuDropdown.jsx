@@ -1,7 +1,7 @@
 export default function MenuDropdown({ children }) {
 
   return (
-    <ul>
+    <ul className="menu--dropdown--container">
       {children}
     </ul>
   )

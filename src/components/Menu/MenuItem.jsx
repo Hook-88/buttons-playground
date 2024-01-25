@@ -1,7 +1,7 @@
 export default function MenuItem({ children }) {
 
   return (
-    <li>{children}</li>
+    <li className="menu--item">{children}</li>
   )
   
 }
